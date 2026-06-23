@@ -1,6 +1,7 @@
 # Transcriptomics
 
 Inleiding 
+
 Reumatoïde artritis (RA) is een auto-immuunziekte die gepaard gaat met een
 chronisch ontstekingsproces dat zowel de gewrichten als organen buiten de
 gewrichten kan aantasten, zoals het hart, de longen en het zenuwstelsel. Er bestaan
