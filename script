@@ -140,4 +140,38 @@ pathview(
   species = "hsa",
   gene.idtype = "entrez"
 )
+# voor het maken van de go analyse maak je eerst de juiste genen lijst
+genes <- rownames(sig)
+# dan omzetten naar entrez IDs
+library(clusterProfiler)
+library(org.Hs.eg.db)
 
+gene.df <- bitr(
+  genes,
+  fromType = "SYMBOL",
+  toType = "ENTREZID",
+  OrgDb = org.Hs.eg.db
+)
+#Om te controleren of het goed is gegaan gebruik je 
+nrow(gene.df)
+# nu wordt de GO analyse uitgevoerd 
+ego <- enrichGO(
+  gene = gene.df$ENTREZID,
+  OrgDb = org.Hs.eg.db,
+  keyType = "ENTREZID",
+  ont = "BP",
+  pAdjustMethod = "BH",
+  pvalueCutoff = 0.05
+)
+# Voor het bekijken van de resultaten gebruik je 
+go_results <- as.data.frame(ego)
+
+head(go_results)
+# dan maak je een dotplot 
+dotplot(ego, showCategory = 20)
+# voor het exporteren naar excel 
+write.csv(
+  as.data.frame(ego),
+  "GO_analysis_results_new.csv",
+  row.names = FALSE
+)
