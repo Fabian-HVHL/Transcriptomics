@@ -1,3 +1,12 @@
+<p align="center">
+<img src="images/Transcriptonomics_startpagina.jpg"
+alt="Transcriptomics_startpagina"
+width="600"/>
+</p>
+
+
+
+
 # Transcriptomics
 
 Inleiding 
