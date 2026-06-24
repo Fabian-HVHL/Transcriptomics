@@ -81,9 +81,15 @@ pathview-pakket op geselecteerde KEGG-pathways.
 alt="Volcano plot"
 width="700"/>
 </p>
-#go analyse 
+#GO analyse 
 <p align="center">
 <img src="images/Go analyse Casus R 2.0.png"
 alt="GO analyse"
+width="700"/>
+</p>
+#KEGG Pathway analyse
+<p align="center">
+<img src="images/hsa05323.pathview.png"
+alt="KEGG Pathway analyse"
 width="700"/>
 </p>
