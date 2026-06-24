@@ -1,9 +1,19 @@
+<h1 align="center">
+Transcriptomics analyse van Rheumatoïde Artritis
+</h1>
+
 <p align="center">
-<img src="images/Transcriptonomics_startpagina.jpg"
-alt="Transcriptomics_startpagina"
-width="600"/>
+<strong>Auteur:</strong> Fabian Le Pelvé<br>
+<strong>Datum:</strong> 19 Juni 2026
 </p>
 
+<hr>
+
+<p align="center">
+<img src="images/RA_header.png"
+alt="RA Transcriptomics"
+width="600"/>
+</p>
 
 
 
