@@ -10,11 +10,17 @@ Transcriptomics analyse van Rheumatoïde Artritis
 <hr>
 
 <p align="center">
-<img src="images/RA_header.png"
+<img src="fotos/transcriptomics RA.webp"
 alt="RA Transcriptomics"
 width="600"/>
 </p>
 
+# Inhoud
+
+- `images/' - zijn de gebruikte figuren voor dit project
+- `Data_RAW/` - ruwe data van controle groepen e patient groepen
+- `scripts/` - R script
+- `Hs_referentie/` - is het gebruikte referentie genoom voor dit project
 
 
 # Transcriptomics
