@@ -75,12 +75,19 @@ genen. Resultaten werden visueel weergegeven via ggplot2 en een
 
 EnhancedVolcano-plot. Tot slot werd pathway-analyse verricht met behulp van het
 pathview-pakket op geselecteerde KEGG-pathways.
-#volcano plot
+
+#Resultaten
+Om verschillen in genexpressie tussen patiënten met reumatoïde artritis (RA) en gezonde controles te identificeren, werd een differentiële expressieanalyse uitgevoerd met DESeq2. De resultaten werden weergegeven in een volcano plot (Figuur 1). Hierin zijn genen met een significante verandering in expressie zichtbaar. In totaal werden 4572 differentieel tot expressie gebrachte genen gevonden (padj < 0,05 en |log2FoldChange| > 1). Hiervan waren 2085 genen verhoogd tot expressie gebracht in de RA-groep en 2487 genen verlaagd tot expressie gebracht ten opzichte van de controlegroep.
 <p align="center">
 <img src="images/RVolcanoPlot_RA.png"
 alt="Volcano plot"
 width="700"/>
 </p>
+
+De GO-analyse werd uitgevoerd op de significant veranderde genen. De meest voorkomende processen waren voornamelijk gerelateerd aan immuunfuncties, waaronder activatie van lymfocyten, regulatie van immuunresponsen en migratie van immuuncellen (Figuur 2). Deze processen zijn kenmerkend voor chronische ontstekingsreacties zoals die voorkomen bij RA.
+Daarnaast werd er ook een KEGG-pathwayanalyse uitgevoerd. Hierbij werd onder andere het pathway Rheumatoid arthritis (hsa05323) onderzocht met behulp van pathview (Figuur 3). Binnen deze pathway werden meerdere genen met verhoogde en verlaagde expressie zichtbaar, wat wijst op verstoringen in ontstekings- en immuun signaalroutes die betrokken zijn bij het ziekteproces van RA.
+
+
 #GO analyse 
 <p align="center">
 <img src="images/Go analyse Casus R 2.0.png"
