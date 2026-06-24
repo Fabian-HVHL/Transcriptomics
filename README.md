@@ -77,7 +77,7 @@ EnhancedVolcano-plot. Tot slot werd pathway-analyse verricht met behulp van het
 pathview-pakket op geselecteerde KEGG-pathways.
 #volcano plot
 <p align="center">
-<img src="images/RVolcanoPlot_RA.png"
+<img src="RVolcanoplot RA.png"
 alt="Volcano plot"
 width="700"/>
 </p>
