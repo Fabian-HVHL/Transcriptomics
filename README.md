@@ -10,7 +10,7 @@ Transcriptomics analyse van Rheumatoïde Artritis
 <hr>
 
 <p align="center">
-<img src="images/transcriptomics RA.webp"
+<img src="images/RA.jpg"
 alt="RA Transcriptomics"
 width="600"/>
 </p>
