@@ -44,17 +44,15 @@ alt="Volcano plot"
 width="700"/>
 </p>
 
-De GO-analyse werd uitgevoerd op de significant veranderde genen. De meest voorkomende processen waren voornamelijk gerelateerd aan immuunfuncties, waaronder activatie van lymfocyten, regulatie van immuunresponsen en migratie van immuuncellen [Figuur 2](images/Go analyse hoogste 25). Zijn de 25 meest verrijkte biologische processen die vaker voorkomen in patiënten van RA.
-&lt;a href=&quot;./images/Go analyse hoogste 25.png&quot; target=&quot;_blank&quot;&gt;
+De GO-analyse werd uitgevoerd op de significant veranderde genen. De meest voorkomende processen waren voornamelijk gerelateerd aan immuunfuncties, waaronder activatie van lymfocyten, regulatie van immuunresponsen en migratie van immuuncellen [Figuur 2]. Zijn de 25 meest verrijkte biologische processen die vaker voorkomen in patiënten van RA.
 <p align="center">
 <img src="images/Go analyse hoogste 25.png"
 alt="GO analyse"
 width="700"/>
 </p>
-[Figuur 3](images/Go analyse laagste 25) laat de top GO-termen voor genen met verlaagde expressie.
-&lt;a href=&quot;./images/Go analyse laagste 25.png&quot; target=&quot;_blank&quot;&gt;
+[Figuur 3] laat de top GO-termen voor genen met verlaagde expressie.
 <p align="center">
-<img src="images/Go analyse laagste 25.png"
+<img src="images/Go analyse 25 laagste.png"
 alt="GO analyse"
 width="700"/>
 </p>
