@@ -21,8 +21,7 @@ width="600"/>
 - `Data_RA_raw/` - ruwe data van controle groepen e patient groepen
 - `script/` - R script
 - `referentie genoom/` - is het gebruikte referentie genoom voor dit project
-- 
--`bronnen/` - hier zitten de bronnen vermeld zijn in dit project
+- `bronnen/` - hier zitten de bronnen vermeld zijn in dit project
 
 
 # Transcriptomics
