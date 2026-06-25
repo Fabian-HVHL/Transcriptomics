@@ -59,7 +59,7 @@ width="700"/>
 
 Daarnaast werd er ook een KEGG-pathwayanalyse uitgevoerd. Hierbij werd onder andere het pathway Rheumatoid arthritis (hsa05323) onderzocht met behulp van pathview [Figuur 4]. Binnen deze pathway werden meerdere genen met verhoogde en verlaagde expressie zichtbaar, wat wijst op verstoringen in ontstekings- en immuun signaalroutes die betrokken zijn bij het ziekteproces van RA. 
 </p>
-#KEGG Pathway analyse
+
 <p align="center">
 <img src="images/hsa05323.pathview.png"
 alt="KEGG Pathway analyse"
