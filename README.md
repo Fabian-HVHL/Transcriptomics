@@ -4,7 +4,7 @@ Transcriptomics analyse van Rheumatoïde Artritis
 
 <p align="center">
 <strong>Auteur:</strong> Fabian Le Pelvé<br>
-<strong>Datum:</strong> 19 Juni 2026
+<strong>Datum:</strong> 25 Juni 2026
 </p>
 
 <hr>
