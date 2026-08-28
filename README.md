@@ -44,11 +44,10 @@ alt="Volcano plot"
 width="700"/>
 </p>
 
+**Figuur 1. Volcano plot van de differentiële genexpressie tussen RA-patiënten en gezonde controles.**
+De x-as toont de log2FoldChange en de y-as de aangepaste p-waarde (-log10(padj)). Rode punten geven genen weer die significant differentieel tot expressie komen op basis van padj < 0,05 en |log2FoldChange| > 1.
 
 
-<small>
-<strong>Figuur 1.</strong> Volcano plot van de differentiële genexpressie tussen RA-patiënten en gezonde controles. De x-as toont de log2FoldChange en de y-as de aangepaste p-waarde (-log10(padj)). Rode punten geven genen weer die significant differentieel tot expressie komen op basis van padj &lt; 0,05 en |log2FoldChange| &gt; 1.
-</small>
 
 De GO-analyse werd uitgevoerd op de verhoogd en verlaagd tot expressie gebrachte genen. De 25 belangrijkste GO termen van de verhoogde genen waren voornamelijk gerelateerd aan immuunfuncties, zoals adaptieve immuunrespons, activatie van lymfocyten, B cellen activatie en T cel difirentatie[Figuur 2]. Bij de 25 belangrijkste GO termen van de verlaagde genen waren vooral processen gerelateerd aan celontwikkeling, differentiatie en transcriptregulatie zichtbaar, waaronder spiercel differentiatie, embryonale orgaanontwikkeling en DNA-template transcriptie[Figuur 3]. 
 <p align="center">
@@ -56,11 +55,17 @@ De GO-analyse werd uitgevoerd op de verhoogd en verlaagd tot expressie gebrachte
 alt="GO analyse"
 width="700"/>
 </p>
+
+**Figuur 2. Top 25 GO-termen voor biologische processen van verhoogd tot expressie gebrachte genen.**
+De dotplot toont de 25 meest verrijkte biologische processen. De x-as geeft de GeneRatio weer en de grootte van de cirkels geeft het aantal genen (Count) binnen iedere GO-term aan. De kleur van de cirkels geeft de aangepaste p-waarde (p.adjust) weer.
 <p align="center">
 <img src="images/GO_top25_verlaagd.png"
 alt="GO analyse"
 width="700"/>
 </p>
+
+**Figuur 3. Top 25 GO-termen voor biologische processen van verlaagd tot expressie gebrachte genen.**
+De dotplot toont de 25 meest verrijkte biologische processen. De x-as geeft de GeneRatio weer en de grootte van de cirkels geeft het aantal genen (Count) binnen iedere GO-term aan. De kleur van de cirkels geeft de aangepaste p-waarde (p.adjust) weer.
 
 Ten slotte werd het KEGG-pathway Rheumatoid arthritis (hsa05323) onderzocht met Pathview [Figuur 4]. In dit pathway zijn genen weergegeven die betrokken zijn bij verschillende processen die een rol spelen bij RA. De genen zijn op basis van hun expressieverandering gekleurd, waardoor zichtbaar wordt welke genen verhoogd of verlaagd tot expressie komen. De pathway bevat onder andere onderdelen die betrokken zijn bij immuunreacties en ontstekingsprocessen. Hierdoor geeft de analyse een overzicht van hoe de gevonden genexpressieveranderingen samenhangen met processen die betrokken zijn bij RA.
 </p>
@@ -70,6 +75,9 @@ Ten slotte werd het KEGG-pathway Rheumatoid arthritis (hsa05323) onderzocht met 
 alt="KEGG Pathway analyse"
 width="700"/>
 </p>
+
+**Figuur 4. KEGG-pathway Rheumatoid arthritis (hsa05323) weergegeven met Pathview.**
+De afbeelding toont de verschillende genen en biologische onderdelen binnen het Rheumatoid arthritis-pathway. De kleur van de genen geeft de verandering in genexpressie tussen de RA-groep en de controlegroep weer.
 
 # Conclusie
 In dit onderzoek werd transcriptomics gebruikt om verschillen in genexpressie tussen RA-patiënten en gezonde controles te onderzoeken. De analyse identificeerde 4572 significant veranderde genen, waarvan zowel verhoogde als verlaagde expressie werd waargenomen. Deze resultaten tonen aan dat reumatoïde artritis gepaard gaat met grootschalige veranderingen in genregulatie binnen synoviumweefsel.
