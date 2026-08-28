@@ -44,7 +44,11 @@ alt="Volcano plot"
 width="700"/>
 </p>
 
-**Figuur 1. Volcano plot van de differentiële genexpressie tussen RA-patiënten en gezonde controles.** De x-as toont de log2FoldChange en de y-as de aangepaste p-waarde (-log10(padj)). Rode punten geven genen weer die significant differentieel tot expressie komen op basis van padj < 0,05 en |log2FoldChange| > 1.
+
+
+<small>
+<strong>Figuur 1.</strong> Volcano plot van de differentiële genexpressie tussen RA-patiënten en gezonde controles. De x-as toont de log2FoldChange en de y-as de aangepaste p-waarde (-log10(padj)). Rode punten geven genen weer die significant differentieel tot expressie komen op basis van padj &lt; 0,05 en |log2FoldChange| &gt; 1.
+</small>
 
 De GO-analyse werd uitgevoerd op de verhoogd en verlaagd tot expressie gebrachte genen. De 25 belangrijkste GO termen van de verhoogde genen waren voornamelijk gerelateerd aan immuunfuncties, zoals adaptieve immuunrespons, activatie van lymfocyten, B cellen activatie en T cel difirentatie[Figuur 2]. Bij de 25 belangrijkste GO termen van de verlaagde genen waren vooral processen gerelateerd aan celontwikkeling, differentiatie en transcriptregulatie zichtbaar, waaronder spiercel differentiatie, embryonale orgaanontwikkeling en DNA-template transcriptie[Figuur 3]. 
 <p align="center">
