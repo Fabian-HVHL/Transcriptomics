@@ -50,9 +50,8 @@ De GO-analyse werd uitgevoerd op de verhoogd en verlaagd tot expressie gebrachte
 alt="GO analyse"
 width="700"/>
 </p>
-[Figuur 3] laat de top GO-termen voor genen met verlaagde expressie.
 <p align="center">
-<img src="images/GO_top_25_laagste.png"
+<img src="images/GO_top25_laagste.png"
 alt="GO analyse"
 width="700"/>
 </p>
