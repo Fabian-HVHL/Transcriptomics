@@ -37,27 +37,27 @@ Vervolgens werd de genexpressie bepaald met behulp van featureCounts en een GTF-
 Om te onderzoeken welke biologische processen betrokken waren bij de gevonden genen, werd een GO-analyse uitgevoerd met het pakket clusterProfiler. De resultaten van de differentiële genexpressieanalyse werden gevisualiseerd met behulp van ggplot2 en een volcano plot. Daarnaast werd een KEGG-pathwayanalyse uitgevoerd met het pakket pathview om inzicht te krijgen in de biologische pathways die mogelijk een rol spelen bij het ontstaan en de ontwikkeling van reumatoïde artritis.
 
 # Resultaten
-Om verschillen in genexpressie tussen patiënten met reumatoïde artritis (RA) en gezonde controles te identificeren, werd een differentiële expressieanalyse uitgevoerd met DESeq2. De resultaten werden weergegeven in een volcano plot [Figuur 1]. Hierin zijn genen met een significante verandering in expressie zichtbaar. In totaal werden 4572 differentieel tot expressie gebrachte genen gevonden (padj < 0,05 en |log2FoldChange| > 1). Hiervan waren 2085 genen verhoogd tot expressie gebracht in de RA-groep en 2487 genen verlaagd tot expressie gebracht ten opzichte van de controlegroep.
+Om verschillen in genexpressie tussen patiënten met reumatoïde artritis (RA) en gezonde controles te identificeren, werd een differentiële expressieanalyse uitgevoerd met DESeq2. De resultaten werden weergegeven in een volcano plot [Figuur 1]. Hierin zijn genen met een significante verandering in expressie zichtbaar. In totaal werden 4572 differentieel tot expressie gebrachte genen gevonden (padj < 0,05 en |log2FoldChange| > 1). Hiervan waren 2085 genen verhoogd tot expressie gebracht in de RA-groep en 2487 genen verlaagd tot expressie gebracht ten opzichte van de controlegroep. De x-as toont de log2foldchance en de y-as de aangepaste p-waarde -log10padj. Genen met een positieve log2FoldChange zijn verhoogd tot expressie gebracht in de RA-groep en genen met een negatieve log2FoldChange zijn verlaagd tot expressie gebracht.
 <p align="center">
 <img src="images/RVolcanoPlot_RA.png"
 alt="Volcano plot"
 width="700"/>
 </p>
 
-De GO-analyse werd uitgevoerd op de significant veranderde genen. De meest voorkomende processen waren voornamelijk gerelateerd aan immuunfuncties, waaronder activatie van lymfocyten, regulatie van immuunresponsen en migratie van immuuncellen [Figuur 2]. Zijn de 25 meest verrijkte biologische processen die vaker voorkomen in patiënten van RA.
+De GO-analyse werd uitgevoerd op de verhoogd en verlaagd tot expressie gebrachte genen. De 25 belangrijkste GO termen van de verhoogde genen waren voornamelijk gerelateerd aan immuunfuncties, zoals adaptieve immuunrespons, activatie van lymfocyten, B cellen activatie en T cel difirentatie[Figuur 2]. Bij de 25 belangrijkste GO termen van de verlaagde genen waren vooral processen gerelateerd aan celontwikkeling, differentiatie en transcriptregulatie zichtbaar, waaronder spiercel differentiatie, embryonale orgaanontwikkeling en DNA-template transcriptie[Figuur 3]. 
 <p align="center">
-<img src="images/Go analyse hoogste 25.png"
+<img src="images/GO_top25_verhoogd.png"
 alt="GO analyse"
 width="700"/>
 </p>
 [Figuur 3] laat de top GO-termen voor genen met verlaagde expressie.
 <p align="center">
-<img src="images/Go analyse 25 laagste.png"
+<img src="images/GO_top_25_laagste.png"
 alt="GO analyse"
 width="700"/>
 </p>
 
-Daarnaast werd er ook een KEGG-pathwayanalyse uitgevoerd. Hierbij werd onder andere het pathway Rheumatoid arthritis (hsa05323) onderzocht met behulp van pathview [Figuur 4]. Binnen deze pathway werden meerdere genen met verhoogde en verlaagde expressie zichtbaar, wat wijst op verstoringen in ontstekings- en immuun signaalroutes die betrokken zijn bij het ziekteproces van RA. 
+Ten slotte werd het KEGG-pathway Rheumatoid arthritis (hsa05323) onderzocht met Pathview [Figuur 4]. In dit pathway zijn genen weergegeven die betrokken zijn bij verschillende processen die een rol spelen bij RA. De genen zijn op basis van hun expressieverandering gekleurd, waardoor zichtbaar wordt welke genen verhoogd of verlaagd tot expressie komen. De pathway bevat onder andere onderdelen die betrokken zijn bij immuunreacties en ontstekingsprocessen. Hierdoor geeft de analyse een overzicht van hoe de gevonden genexpressieveranderingen samenhangen met processen die betrokken zijn bij RA.
 </p>
 
 <p align="center">
