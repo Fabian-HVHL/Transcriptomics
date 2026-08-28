@@ -22,6 +22,7 @@ width="600"/>
 - `script/` - R script
 - `referentie genoom/` - is het gebruikte referentie genoom voor dit project
 - `bronnen/` - hier zitten de bronnen vermeld zijn in dit project
+- `Resultaten/` - hier zitten de excel bestanden met de resultaten
 
 
 # Transcriptomics
