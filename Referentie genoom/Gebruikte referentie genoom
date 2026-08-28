@@ -1,0 +1,14 @@
+# Referentiegenoom
+
+Voor dit onderzoek werd het humane referentiegenoom GRCh38.p14
+(GCF_000001405.40) gebruikt.
+
+Het referentiegenoom werd gebruikt voor de alignment van de
+RNA-sequencingdata met Rsubread.
+
+Het volledige referentiegenoom is niet opgenomen in deze repository
+vanwege de grote bestandsgrootte.
+
+## Annotatie
+
+Voor featureCounts werd het bestand `genomic.gtf` gebruikt.
