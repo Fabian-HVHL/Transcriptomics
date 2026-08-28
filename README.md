@@ -51,7 +51,7 @@ alt="GO analyse"
 width="700"/>
 </p>
 <p align="center">
-<img src="images/GO_top25_laagste.png"
+<img src="images/GO_top25_verlaagd.png"
 alt="GO analyse"
 width="700"/>
 </p>
