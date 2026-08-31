@@ -52,7 +52,7 @@ Om verschillen in genexpressie tussen patiënten met reumatoïde artritis (RA) e
 alt="Volcano plot"
 width="700"/>
 </p>
-
+**Flowchart. voor beeldgeving van verloop van het project 
 **Figuur 1. Volcano plot van de differentiële genexpressie tussen RA-patiënten en gezonde controles.**
 De x-as toont de log2FoldChange en de y-as de aangepaste p-waarde (-log10(padj)). Rode punten geven genen weer die significant differentieel tot expressie komen op basis van padj < 0,05 en |log2FoldChange| > 1.
 
