@@ -40,7 +40,7 @@ Vervolgens werd een Gene Ontology-analyse uitgevoerd met clusterProfiler om betr
 Voor de analyse werden de volgende R-packages en versies gebruikt: Rsubread (2.20.0), Rsamtools (2.22.0), DESeq2 (1.46.0), clusterProfiler (4.14.6), ggplot2 (4.0.3), EnhancedVolcano (1.24.0), pathview (1.46.0) en KEGGREST (1.46.0).
 
 <p align="center">
-<img src="images/RNA_Sequencing_Data.jpg"
+<img src="images/RNA Sequencing Data.jpg"
 alt="Flowdiagram van de transcriptomics-analyse"
 width="400"/>
 </p>
