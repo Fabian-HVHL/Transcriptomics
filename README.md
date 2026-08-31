@@ -39,8 +39,10 @@ Om te onderzoeken welke biologische processen betrokken waren bij de gevonden ge
 <p align="center">
 <img src="images/RNA Sequencing Data.jpg"
 alt="Flowdiagram van de transcriptomics-analyse"
-width="700"/>
+width="400"/>
 </p>
+
+Flowchart voor beeldgeving van verloop van het project
 
 <small>
 <strong>Figuur 5.</strong> Flowdiagram van de uitgevoerde transcriptomics-analyse. De RNA-sequencingdata worden vanuit de FASTQ-bestanden uitgelijnd op het humane referentiegenoom GRCh38.p14. Vervolgens worden BAM-bestanden gesorteerd, waarna featureCounts wordt gebruikt met het genomic.gtf-annotatiebestand om een countmatrix te verkrijgen. Met DESeq2 worden differentieel geëxprimeerde genen bepaald. Deze worden vervolgens gebruikt voor de volcano plot, GO-analyse en KEGG-analyse. Voor de KEGG-analyse wordt de Rheumatoid arthritis pathway (hsa05323) verder onderzocht.
@@ -52,7 +54,7 @@ Om verschillen in genexpressie tussen patiënten met reumatoïde artritis (RA) e
 alt="Volcano plot"
 width="700"/>
 </p>
-**Flowchart. voor beeldgeving van verloop van het project 
+ 
 **Figuur 1. Volcano plot van de differentiële genexpressie tussen RA-patiënten en gezonde controles.**
 De x-as toont de log2FoldChange en de y-as de aangepaste p-waarde (-log10(padj)). Rode punten geven genen weer die significant differentieel tot expressie komen op basis van padj < 0,05 en |log2FoldChange| > 1.
 
