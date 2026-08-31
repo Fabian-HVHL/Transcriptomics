@@ -33,20 +33,21 @@ De exacte oorzaak van RA is nog niet bekend. Onderzoekers verdenken dat de ziekt
 In dit onderzoek werden vier monsters van patiënten met reumatoïde artritis en vier monsters van gezonde personen onderzocht. De monsters waren afkomstig uit het synovium, het slijmvlies van de gewrichten. Met behulp van een transcriptomics-analyse werd gekeken welke genen verschillen in expressie tussen de RA-groep en de controlegroep. Daarnaast werd onderzocht welke biologische processen en pathways hierbij betrokken zijn door middel van een Gene Ontology-analyse (GO). Het doel van dit onderzoek was om meer inzicht te krijgen in de moleculaire processen die een rol spelen bij reumatoïde artritis.
 
 # Methode
-Voor dit onderzoek werd gebruikgemaakt van RNA-sequencingdata van synoviumbiopten van vier gezonde controles en vier patiënten met reumatoïde artritis. De patiënten hadden de diagnose al langer dan twaalf maanden en waren ACPA-positief, terwijl de controlegroep ACPA-negatief was. De ruwe sequencingbestanden (FASTQ-bestanden) werden eerst uitgelijnd op het humane referentiegenoom (GRCh38) met behulp van het pakket Rsubread in RStudio. Daarna werden de verkregen BAM-files gesorteerd en geïndexeerd met het pakket Rsamtools.
-Vervolgens werd de genexpressie bepaald met behulp van featureCounts en een GTF-annotatiebestand. De verkregen countmatrix werd geanalyseerd met DESeq2 om verschillen in genexpressie tussen de RA-groep en de controlegroep vast te stellen. Significante genen werden geselecteerd bij een aangepaste p-waarde &lt; 0.05 en een |log2FoldChange| &gt; 1.
-Om te onderzoeken welke biologische processen betrokken waren bij de gevonden genen, werd een GO-analyse uitgevoerd met het pakket clusterProfiler. De resultaten van de differentiële genexpressieanalyse werden gevisualiseerd met behulp van ggplot2 en een volcano plot. Daarnaast werd een KEGG-pathwayanalyse uitgevoerd met het pakket pathview om inzicht te krijgen in de biologische pathways die mogelijk een rol spelen bij het ontstaan en de ontwikkeling van reumatoïde artritis.
+Voor dit onderzoek naar reumatoïde artritis (RA) werd RNA-sequencingdata van synoviumbiopten geanalyseerd van vier gezonde controles en vier RA-patiënten met meer dan 12 maanden diagnose. De controlegroep was ACPA-negatief en de RA-groep ACPA-positief. De gebruikte RNA-sequencingdata waren afkomstig van Platzer et al.
+De ruwe sequencingbestanden (FASTQ) werden uitgelijnd op het humane referentiegenoom GRCh38.p14 (GCF_000001405.40) met behulp van de align-functie uit het Rsubread-pakket. Hiervoor werd eerst een index van het referentiegenoom aangemaakt. Hierna werden de resulterende BAM-bestanden gesorteerd en geïndexeerd met Rsamtools.
+De genexpressie werd gekwantificeerd met featureCounts op basis van het genomic.gtf-annotatiebestand. De differentiële genexpressieanalyse werd uitgevoerd in DESeq2, waarbij een model werd gebruikt op basis van de behandelconditie (RA vs. controle). Significante genen werden geselecteerd bij een aangepaste p-waarde < 0,05 en een |log2FoldChange| > 1.
+Vervolgens werd een Gene Ontology-analyse uitgevoerd met clusterProfiler om betrokken biologische processen te identificeren, apart voor verhoogde en verlaagde genen. Resultaten werden visueel weergegeven via ggplot2 en een EnhancedVolcano-plot. Tot slot werd pathway-analyse verricht met behulp van het pathview-pakket op geselecteerde KEGG-pathways. Voor de KEGG-analyse werd specifiek de pathway Rheumatoid arthritis (hsa05323) verder onderzocht.
+Voor de analyse werden de volgende R-packages en versies gebruikt: Rsubread (2.20.0), Rsamtools (2.22.0), DESeq2 (1.46.0), clusterProfiler (4.14.6), ggplot2 (4.0.3), EnhancedVolcano (1.24.0), pathview (1.46.0) en KEGGREST (1.46.0).
+
 <p align="center">
-<img src="images/RNA Sequencing Data.jpg"
+<img src="images/RNA_Sequencing_Data.jpg"
 alt="Flowdiagram van de transcriptomics-analyse"
 width="400"/>
 </p>
 
-Flowchart voor beeldgeving van verloop van het project
+Flowchart voor beeldgeving van het verloop van het project 
 
-<small>
-<strong>Figuur 5.</strong> Flowdiagram van de uitgevoerde transcriptomics-analyse. De RNA-sequencingdata worden vanuit de FASTQ-bestanden uitgelijnd op het humane referentiegenoom GRCh38.p14. Vervolgens worden BAM-bestanden gesorteerd, waarna featureCounts wordt gebruikt met het genomic.gtf-annotatiebestand om een countmatrix te verkrijgen. Met DESeq2 worden differentieel geëxprimeerde genen bepaald. Deze worden vervolgens gebruikt voor de volcano plot, GO-analyse en KEGG-analyse. Voor de KEGG-analyse wordt de Rheumatoid arthritis pathway (hsa05323) verder onderzocht.
-</small>
+
 # Resultaten
 Om verschillen in genexpressie tussen patiënten met reumatoïde artritis (RA) en gezonde controles te identificeren, werd een differentiële expressieanalyse uitgevoerd met DESeq2. De resultaten werden weergegeven in een volcano plot [Figuur 1]. Hierin zijn genen met een significante verandering in expressie zichtbaar. In totaal werden 4572 differentieel tot expressie gebrachte genen gevonden (padj < 0,05 en |log2FoldChange| > 1). Hiervan waren 2085 genen verhoogd tot expressie gebracht in de RA-groep en 2487 genen verlaagd tot expressie gebracht ten opzichte van de controlegroep. De x-as toont de log2foldchance en de y-as de aangepaste p-waarde -log10padj. Genen met een positieve log2FoldChange zijn verhoogd tot expressie gebracht in de RA-groep en genen met een negatieve log2FoldChange zijn verlaagd tot expressie gebracht.
 <p align="center">
